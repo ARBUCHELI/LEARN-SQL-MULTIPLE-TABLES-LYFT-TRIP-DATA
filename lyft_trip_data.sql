@@ -131,6 +131,28 @@ FROM trips;
 SELECT ROUND(AVG(cost), 2)
 FROM trips;
 
+SELECT *
+FROM riders;
+
+SELECT *
+FROM riders
+WHERE total_trips < 500;
+
+SELECT *
+FROM cars;
+
+SELECT COUNT(*)
+FROM cars
+WHERE status = 'active';
+
+SELECT *
+FROM cars
+ORDER BY trips_completed DESC
+LIMIT 2;
+
+
+
+
 
 
 
