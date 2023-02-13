@@ -25,7 +25,7 @@ INSERT INTO trips (id, date, pickup, dropoff, rider_id, car_id, type, cost)
 VALUES (1005, '2017-12-05', '15:15', '16:00', 103, 2, 'POOL', 18.95);
 
 INSERT INTO trips (id, date, pickup, dropoff, rider_id, car_id, type, cost)
-VALUES (1006, '2017-12-05', '18:20', '18:55', 101, 3, 'XL', 78.52);*/
+VALUES (1006, '2017-12-05', '18:20', '18:55', 101, 3, 'XL', 78.52);
 
 CREATE TABLE riders (
     id INTEGER,
@@ -36,4 +36,30 @@ CREATE TABLE riders (
     total_trips INTEGER,
     referred INTEGER
 )
+
+INSERT INTO riders (id, first, last, username, rating, total_trips, referred)
+VALUES (101, 'Sonny', 'Li', '@sonnynomnom', 4.66, 352, NULL);
+
+INSERT INTO riders (id, first, last, username, rating, total_trips, referred)
+VALUES (102, 'Laura', 'Breiman', '@lauracle', 4.99, 687, 101);
+
+INSERT INTO riders (id, first, last, username, rating, total_trips, referred)
+VALUES (103, 'Kassa', 'Korley', '@kassablanca', 4.63, 42, NULL);
+
+INSERT INTO riders (id, first, last, username, rating, total_trips, referred)
+VALUES (104, 'Yakov', 'Kagan', '@yakovkagan', 4.52, 1910, 103);
+
+SELECT *
+FROM riders;*/
+
+
+
+
+
+
+
+
+
+
+
 
