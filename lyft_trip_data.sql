@@ -25,7 +25,7 @@ INSERT INTO trips (id, date, pickup, dropoff, rider_id, car_id, type, cost)
 VALUES (1005, '2017-12-05', '15:15', '16:00', 103, 2, 'POOL', 18.95);
 
 INSERT INTO trips (id, date, pickup, dropoff, rider_id, car_id, type, cost)
-VALUES (1006, '2017-12-05', '18:20', '18:55', 101, 3, 'XL', 78.52);
+VALUES (1006, '2017-12-05', '18:20', '18:55', 101, 3, 'XL', 78.52);*/
 
 CREATE TABLE riders (
     id INTEGER,
@@ -35,5 +35,5 @@ CREATE TABLE riders (
     rating INTEGER,
     total_trips INTEGER,
     referred INTEGER
-)*/
+)
 
