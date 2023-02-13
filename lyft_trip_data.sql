@@ -114,10 +114,17 @@ LEFT JOIN riders
 
 Suppose, we only want certain columns:*/
 
-SELECT *
+/*SELECT *
 FROM trips
 JOIN cars
-  ON trips.car_id = cars.id;
+  ON trips.car_id = cars.id;*/
+
+SELECT *
+FROM riders
+UNION
+SELECT *
+FROM riders2;
+
 
 
 
