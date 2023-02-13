@@ -49,9 +49,6 @@ VALUES (103, 'Kassa', 'Korley', '@kassablanca', 4.63, 42, NULL);
 INSERT INTO riders (id, first, last, username, rating, total_trips, referred)
 VALUES (104, 'Yakov', 'Kagan', '@yakovkagan', 4.52, 1910, 103);
 
-SELECT *
-FROM riders;
-
 CREATE TABLE riders2 (
     id INTEGER,
     first TEXT, 
@@ -60,7 +57,50 @@ CREATE TABLE riders2 (
     rating INTEGER,
     total_trips INTEGER,
     referred INTEGER
-)*/
+)
+
+INSERT INTO riders2 (id, first, last, username, rating, total_trips, referred)
+VALUES (105, 'Zach', 'Sims', '@zsims', 4.85, 787, NULL);
+
+INSERT INTO riders2 (id, first, last, username, rating, total_trips, referred)
+VALUES (106, 'Eric', 'Vaught', '@posturelol', 4.96, 54, 101);
+
+INSERT INTO riders2 (id, first, last, username, rating, total_trips, referred)
+VALUES (107, 'Jilly', 'Beans', '@jillkuzmin', 4.7, 32, 101);
+
+CREATE TABLE cars (
+    id INTEGER,
+    model TEXT, 
+    OS TEXT,
+    status TEXT,
+    trips_completed INTEGER
+);
+
+INSERT INTO cars (id, model, OS, status, trips_completed)
+VALUES (1, 'Ada', 'Ryzac', 'active', 82);
+
+INSERT INTO cars (id, model, OS, status, trips_completed)
+VALUES (2, 'Ada', 'Ryzac', 'active', 30);
+
+INSERT INTO cars (id, model, OS, status, trips_completed)
+VALUES (3, 'Turing XL', 'Ryzac', 'active', 164);
+
+INSERT INTO cars (id, model, OS, status, trips_completed)
+VALUES (4, 'Akira', 'Finux', 'maintenance', 22);*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
