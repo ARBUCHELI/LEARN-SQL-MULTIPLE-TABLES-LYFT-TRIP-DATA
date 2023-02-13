@@ -86,8 +86,33 @@ INSERT INTO cars (id, model, OS, status, trips_completed)
 VALUES (3, 'Turing XL', 'Ryzac', 'active', 164);
 
 INSERT INTO cars (id, model, OS, status, trips_completed)
-VALUES (4, 'Akira', 'Finux', 'maintenance', 22);*/
+VALUES (4, 'Akira', 'Finux', 'maintenance', 22);
 
+SELECT * FROM trips;
+
+SELECT * FROM riders;
+
+SELECT * FROM cars;
+
+SELECT riders.first,
+       riders.last,
+       cars.model
+FROM riders, cars;*/
+
+--Its possible to get the same result using the following command --
+
+/*SELECT *
+FROM riders
+CROSS JOIN cars;
+
+SELECT *
+FROM trips
+LEFT JOIN riders
+  ON trips.rider_id = riders.id;
+
+/*The result has a lot of columns.
+
+Suppose, we only want certain columns:*/
 
 
 
