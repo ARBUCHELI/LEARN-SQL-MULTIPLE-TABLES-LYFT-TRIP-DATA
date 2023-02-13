@@ -114,7 +114,10 @@ LEFT JOIN riders
 
 Suppose, we only want certain columns:*/
 
-
+SELECT *
+FROM trips
+JOIN cars
+  ON trips.car_id = cars.id;
 
 
 
