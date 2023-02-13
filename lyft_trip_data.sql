@@ -50,8 +50,17 @@ INSERT INTO riders (id, first, last, username, rating, total_trips, referred)
 VALUES (104, 'Yakov', 'Kagan', '@yakovkagan', 4.52, 1910, 103);
 
 SELECT *
-FROM riders;*/
+FROM riders;
 
+CREATE TABLE riders2 (
+    id INTEGER,
+    first TEXT, 
+    last TEXT,
+    username TEXT,
+    rating INTEGER,
+    total_trips INTEGER,
+    referred INTEGER
+)*/
 
 
 
