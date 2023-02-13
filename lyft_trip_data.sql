@@ -117,15 +117,19 @@ Suppose, we only want certain columns:*/
 /*SELECT *
 FROM trips
 JOIN cars
-  ON trips.car_id = cars.id;*/
+  ON trips.car_id = cars.id;
 
 SELECT *
 FROM riders
 UNION
 SELECT *
-FROM riders2;
+FROM riders2;*/
 
+SELECT *
+FROM trips;
 
+SELECT ROUND(AVG(cost), 2)
+FROM trips;
 
 
 
